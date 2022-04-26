@@ -1,0 +1,28 @@
+.cont{
+    display: flex;
+
+}
+.padre{
+    border:  2px solid #ff0000;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hijo{
+    border:  2px solid #002fff;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nieto{
+    border:  2px solid #00ff1e;
+    width: 200px;
+    height: 100px;
+}
+

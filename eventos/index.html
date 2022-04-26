@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/eventos/app.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="cont">
+
+        
+        <div class="padre" data-div="divPadre">
+            <div class="hijo" data-div="divHijo">
+                <div class="nieto" data-div="divNieto">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- eventos con stopPropagation -->
+        <div class=" padre padre1">
+            <div class="hijo hijo1 ">
+                <div class="nieto nieto1">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form id="formulario" action="">
+        <input type="text" name="entrada" id="entrada">
+        <input type="submit" value="enviar">
+    </form>
+
+
+
+
+    <script src="/eventos/app.js"></script>
+</body>
+</html>

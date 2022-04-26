@@ -1,0 +1,115 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+.contenedor{
+  background-color: #727171;
+  width: 100%;
+  padding: 25px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  /* height:250px; */
+}
+
+/* TARJETAS */
+.card{
+     background: #ffffff;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+     width: 250px;
+     padding: 5px 10px;
+     border:  1px solid #727171;
+     border-radius: 15px;
+
+ }
+
+ .contenedor .card .descProducto{
+     /* text-align: center; */
+     margin: 10px 0;
+
+ }
+
+ .contenedor .card .btn{
+     font-size: 16px;
+     font-weight: 600;
+     padding: 10px;
+     border: 1px solid #2600ff;
+     background: none;
+     border-radius: 8px;
+     transition: all 0.3s ease-in;
+
+ }
+ .contenedor .card .btn:hover{
+     background: #2600ff;
+     color: #ffffff;
+     /* border: none; */
+     /* padding: 11px; */
+
+ }
+
+
+.items{
+    /* background: red; */
+    width: 450px;
+    padding: 10px 20px;
+
+}
+
+.item{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    /* background: #db8080; */
+}
+
+.item::marker{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.item:nth-child(even){
+    background: #acf9ff;
+}
+.item:nth-child(odd){
+    background: #ffe3a7;
+}
+
+/* redondear div de id y cantidad */
+.item .id{
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.item .cantidad{
+    background: #f46d6d;
+    /* padding: 2px; */
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
