@@ -8,7 +8,11 @@
 Ejemplo: /Carlos|Carl/i
 ******la letra i  significa que no distinga entre mayusculas y minusculas
 ******** la letra g significa que busque globalmente el contenido entre una cadena de texto
+*******para  evaluar una exprecion regular utilizamos el metodo test()
+existen varios para comprender mejor los demas ver la documentacin oficial
 
 */
 
-const regExp = 
+const regExp = /Carlos|Carl/i;
+
+console.log(regExp.test("carl orellana esta escribiendo codigo de programacion"));
