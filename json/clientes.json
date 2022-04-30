@@ -1,1 +1,36 @@
-/* en este articulo trataremos los archivos*/
+[
+    {
+    "id":1,
+    "firstName": "carlos",
+    "lastName": "orellana",
+    "age": 30,
+    "city":{
+        "nameCity": "Trinidad, Santa Barbara",
+        "street": "calle principal Trinidad Santa Barbara"
+        }
+
+    },
+    {
+    "id":2,
+    "firstName": "eduardo",
+    "lastName": "rapalo",
+    "age": 40,
+    "city":{
+        "nameCity": "omoa, Cortes",
+        "street": "calle principal hacia castillo Omoa"
+        }
+
+    },
+    {
+    "id":3,
+    "firstName": "Orellana ",
+    "lastName": "Rapalo",
+    "age": 55,
+    "city":{
+        "nameCity": "Santa Cruz, Cortes",
+        "street": "Carretera principal del lago yojoa"
+        }
+
+    }
+
+]

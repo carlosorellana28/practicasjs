@@ -1,0 +1,51 @@
+.items{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    padding: 10px 10px;
+    border-top: 1px  solid #000;
+    /* padding: 0 10px; */
+    /* z-index: 100; */
+    /* border-bottom: 1px  solid #000; */
+    
+}
+.items:nth-child(odd){
+    background: #3b3b3b;
+    color: #fff;
+    
+}
+.items:nth-child(even){
+    background: rgb(102, 141, 174);
+    color: #000;
+    
+}
+.parrafo{
+    text-transform: uppercase;
+    margin:0;
+    margin-right: 10px;
+    /* padding: 5px 10px; */
+    text-align: left;
+    background: red;
+    min-width: au;
+    display: flex;
+    justify-content: space-around;
+}
+.city{
+    text-transform: uppercase;
+    margin:0;
+    margin-right: 10px;
+    /* padding: 5px 10px; */
+    text-align: left;
+    background: red;
+    min-width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items b{
+    font-weight:800;
+    /* background: red; */
+    margin-right: 10px;
+}
