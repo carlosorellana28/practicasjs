@@ -104,10 +104,5 @@ fetch('http://127.0.0.1:5501/json/clientes.json')
     list.appendChild(fracment);
 })
 
-list.addEventListener("click",(e)=>{
-    console.log(e.target.matches(".items"))
 
-
-      
-})
     
