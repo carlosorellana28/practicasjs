@@ -30,6 +30,9 @@
                 minlength="4"
                 maxlength="30"
             >
+            <!-- creamos un parrafo para mostrar el error -->
+            <!-- lo manejaremos con bootstrap y luego con js -->
+            <p class="text-danger mb-2 d-none " id="alertName" >esto es un alerta</p>
             <input
                 class="form-control mb-2"
                 type="email"
@@ -43,7 +46,13 @@
                 minlength="4"
                 maxlength="30"
             >
+            <p class="text-danger mb-2 d-none " id="alertEmail">esto es un alerta</p>
+
             <button class="btn btn-outline-primary" type="submit">Enviar</button>
+
+            <div class="alert alert-success my-2 d-none" id="alertMensaje" >
+                mensaje enviado con exito
+            </div>
         </form>
     </div>
    
