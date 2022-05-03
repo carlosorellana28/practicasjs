@@ -1,3 +1,7 @@
+// importamos los paquetes
+import fetch from 'node-fetch';
+
+
 const posts = [
     {
         userId: 1,
@@ -104,7 +108,96 @@ const posts = [
 
 /* 
  * PROMESAS
+
  */
 
+// const findPosById = (id) =>{
+    // //    se verifica que exista else,elemento en el array
+    
+    // const post = posts.find((item)=> item.id===id);
+// // retormamos una promesa
+// return new Promise((resolve, reject)=>{
+    
+    //     if(post){
+        //         // retornamos la respuesta verdadera
+        //         resolve(post)
+        //     }else{
+            //         reject("no se encontro el elemento enviado");
+//     }
+// })
+
+
+// }
+
+// findPosById(2)
+//     .then((post)=> console.log(post))
+//     .catch((e)=> console.log(e))
+
+
+/* 
+ * PROMESAS CON ASYNG AWAIT
+
+ */
+// creamos la funcion de la promesa
+//  const findPosById = (id)=> new Promise((req, res)=>{
+//     //  la encerramos en un setTimaout para atrasar su ejecucion
+//     setTimeout(()=>{
+//         const post= posts.find((item)=>item.id === id);
+//         // verificamos si existe el id
+//         if(post){
+//             req(post);
+//         }else{
+//             res("no se encontro el elemento")
+//         }
+//     },2000)
+//  })
+
+// // llamamos a la funcion con async
+
+
+// const buscar= async(id)=>{
+
+//     // para validar los errores pasamos por un try catch
+
+//     try {
+//         const post = await findPosById(id);
+//         console.log(post.body)
+//     } catch (error) {
+//         console.log(error)
+//     }
+
+// }
+
+// buscar(3)
+
+
+/* async await */
+
+// ruta de la url del json
+ const url = "https://jsonplaceholder.typicode.com/photos/";
+
+
+const findById = async (id) => {
+
+    try {
+        const resp = await fetch(url + id);
+        const user = await resp.json();
+        
+        console.log(user)
+        
+    } catch (error) {
+        console.log(error)
+    }
+    
+
+
+
+}
+ 
+findById(10)
+    
+
+console.log("esto esta de ultimo");
+ 
     
 
