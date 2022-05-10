@@ -16,6 +16,9 @@
     color: #fff;
     
 }
+img{
+    background-image: url();
+}
 .items:nth-child(even){
     background: rgb(102, 141, 174);
     color: #000;

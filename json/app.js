@@ -13,6 +13,7 @@
 /*  
 *EJEMPLO*
 */
+ 
 
 const cliente={
     "firstName": "carlos",

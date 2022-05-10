@@ -3,6 +3,7 @@
     "id":1,
     "firstName": "carlos",
     "lastName": "orellana",
+    "photoUser": "/img/final-avatar.jpg",
     "age": 30,
     "city":{
         "nameCity": "Trinidad, Santa Barbara",
@@ -25,6 +26,19 @@
     "id":3,
     "firstName": "Orellana ",
     "lastName": "Rapalo",
+    "photoUser": "/img/final-avatar.jpg",
+    "age": 55,
+    "city":{
+        "nameCity": "Santa Cruz, Cortes",
+        "street": "Carretera principal del lago yojoa"
+        }
+
+    },
+    {
+    "id":3,
+    "firstName": "Orellana ",
+    "lastName": "Rapalo",
+    "photoUser": "/img/final-avatar.jpg",
     "age": 55,
     "city":{
         "nameCity": "Santa Cruz, Cortes",
