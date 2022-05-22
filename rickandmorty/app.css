@@ -1,0 +1,16 @@
+.card-animation:hover{
+    /* transform: ; */
+    z-index: 20;
+    /* box-shadow: 10px 10px  black; */
+    animation: rotate-card 1s linear;
+
+}
+@keyframes rotate-card{
+    /* 0%{
+        transform: rotateY(360deg) ;
+    } */
+    100%{
+        
+        transform:scale(1.1);
+    }
+}
