@@ -34,9 +34,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
  };
 
 
-
-
-
  const mostrarData = data=>{
     console.log(data) 
     
